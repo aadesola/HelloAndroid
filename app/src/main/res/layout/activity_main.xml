@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center">
+
+
+
+    <ImageView
+        android:src="@drawable/uda"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text=" Udacity"
+        android:textSize="19sp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:background="#33b5e5"
+        android:layout_marginTop="100dp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="650-555-5555"
+        android:textSize="19sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#DCDCDC"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="www.udacity.com"
+        android:background="#33b5e5"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="19sp"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:textSize="17sp"
+       android:fontFamily="sans-serif-light"
+       android:layout_margin="@dimen/activity_vertical_margin"
+       android:background="#DCDCDC"
+       android:padding="@dimen/activity_horizontal_margin"
+       android:text="2465 Latham St, Mountain View, CA 94043"/>
+
+
+
+</LinearLayout>
+
